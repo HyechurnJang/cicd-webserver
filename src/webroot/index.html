@@ -1,0 +1,41 @@
+<html>
+
+<head>
+	<title>Test</title>
+	<meta charset="utf-8">
+	<meta name="author" content="hyjang@cisco.com">
+	<link rel="stylesheet" href="static/web.css" />
+</head>
+
+<body>
+	<script src="static/jquery-3.6.2.min.js"></script>
+	<script src="static/web.js"></script>
+	<div id="intro">
+		<p align="center"><img src="/static/NH-LOGO.png" height="150px"></p>
+	</div>
+	<div>
+		<h2><p align="center">
+		
+		NH-TEST-VERSION-1
+		
+		</p></h2>
+	</div>
+	<div class="dotted-widget">
+		<h3>
+			<p align="center">워크로드</p>
+		</h3>
+		<table>
+			<thead><tr><th>부하량</th><th>간격</th><th>기능</th></tr></thead>
+			<tbody>
+				<tr>
+					<td><input id="workload-weight" type="number" value="50"></td>
+					<td><input id="workload-tick" type="number" value="1000"></td>
+					<td id="workload-action"><button class="c-button" onclick="startWorkload();">시작</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="dotted-widget" id="main"></div>
+</body>
+
+</html>

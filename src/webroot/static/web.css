@@ -1,0 +1,40 @@
+#callStack {
+	border-style: dashed;
+	margin: 1em;
+	padding: 1em;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+input {
+	width: 100%;
+	border: 1px dotted;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.dotted-widget {
+	border-style: dashed;
+	margin: 1em;
+	padding: 1em;
+}
+
+.c-button {
+	width: 100%;
+}
+
+.ud-button {
+	width: 50%;
+}
