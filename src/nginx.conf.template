@@ -27,11 +27,11 @@ http {
         listen                  80;
         
         location /was/ {
-            proxy_pass          http://192.168.3.16:8080/;
+            proxy_pass          http://__APPLICATION_VIP__:8080/;
         }
         
         location / {
-            alias               /opt/cicd/src/webroot/;
+            alias               __WORKSPACE__/src/webroot/;
         }
     }
 }
