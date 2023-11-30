@@ -32,7 +32,8 @@ http {
         
         location / {
             alias               /opt/cicd/src/webroot/;
-            add_header          Cache-Control no-cache;
+            add_header          Cache-Control 'no-store';
+            add_header          Cache-Control 'no-cache';
             expires             0;
         }
     }
