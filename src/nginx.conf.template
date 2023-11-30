@@ -32,6 +32,7 @@ http {
         
         location / {
             alias               /opt/cicd/src/webroot/;
+            expires             -1;
         }
     }
 }
